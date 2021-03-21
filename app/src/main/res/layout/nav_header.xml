@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:background="@drawable/ww"
+    android:paddingLeft="15dp">
+
+    <TextView
+        android:id="@+id/menu_slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Everything you need about the School is Here"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        android:textColor="#000"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO OUR SCHOOL"
+        android:textSize="17sp"
+        android:layout_above="@id/menu_slogan"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="1900dp"
+        android:layout_above="@id/app_name"
+        android:layout_marginBottom="-60dp"
+        android:paddingLeft="-40dp"
+        android:src="@drawable/bg" />
+
+
+</RelativeLayout>
